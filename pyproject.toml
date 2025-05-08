@@ -1,0 +1,17 @@
+[project]
+name = "crawl4ai-web-scrapping"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "ahmedashfaq850", email = "ahmedashfaq6777@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = []
+
+[project.scripts]
+crawl4ai-web-scrapping = "crawl4ai_web_scrapping:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
